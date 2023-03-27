@@ -1,0 +1,25 @@
+{
+  "name": "demo-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/malinajs-devserver -w",
+    "dev:tes": "node ../../malinajs-devserver -w",
+    "build": "node node_modules/malinajs-devserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulmzr/demo-spa.git"
+  },
+  "homepage": "https://github.com/ulmzr/malinajs-devserver#readme",
+  "devDependencies": {
+    "malinajs": "^0.6.64",
+    "malinajs-devserver": "^0.0.8",
+    "malinajs-trouter": "^1.0.3",
+    "sass": "^1.60.0"
+  }
+}
