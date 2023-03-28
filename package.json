@@ -17,7 +17,7 @@
   "homepage": "https://github.com/ulmzr/malinajs-devserver#readme",
   "devDependencies": {
     "malinajs": "^0.6.64",
-    "malinajs-devserver": "^0.0.8",
+    "malinajs-devserver": "^0.0.9",
     "malinajs-trouter": "^1.0.3",
     "sass": "^1.60.0"
   }
