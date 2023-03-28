@@ -18,6 +18,7 @@ src/
     ├ index.js
     └ +example.xht
 ```
+To access example page, the url should be //localhost:3000/plane/example
 
 
 
