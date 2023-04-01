@@ -14,11 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/ulmzr/demo-spa.git"
   },
-  "homepage": "https://github.com/ulmzr/malinajs-devserver#readme",
+  "homepage": "https://github.com/ulmzr/demo-spa.git#readme",
   "devDependencies": {
     "malinajs": "^0.6.64",
     "malinajs-devserver": "^0.0.9",
-    "malinajs-trouter": "^1.0.3",
+    "malinajs-trouter": "^1.1.2",
     "sass": "^1.60.0"
   }
 }
