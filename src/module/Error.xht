@@ -1,0 +1,34 @@
+<script>
+   export let num = 404;
+   export let nfo = 'page not found';
+   export let msg = 'Page you are looking for is not found.<br>Probably eaten by a snake.';
+</script>
+
+<hgroup>
+   <h1>{num}</h1>
+   <h6>{nfo}</h6>
+   <p>{@html msg}</p>
+</hgroup>
+
+<style>
+   hgroup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 3em 0;
+   }
+
+   h6 {
+      text-transform: uppercase;
+      color: #bbb;
+      margin-bottom: 1em;
+      letter-spacing: 5px;
+   }
+
+   p {
+      line-height: 1.25;
+      font-size: .75em;
+   }
+</style>

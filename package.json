@@ -16,8 +16,9 @@
   },
   "homepage": "https://github.com/ulmzr/demo-spa.git#readme",
   "devDependencies": {
+    "esbuild": "^0.17.14",
     "malinajs": "^0.6.64",
-    "malinajs-devserver": "^0.0.9",
+    "malinajs-devserver": "^1.0.0",
     "malinajs-trouter": "^1.1.2",
     "sass": "^1.60.0"
   }

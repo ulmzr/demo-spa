@@ -1,0 +1,15 @@
+<script>
+   export let params;
+   import load from './';
+   
+   let cmp;
+   const dynImport = o => o.then( m => cmp = m.default);
+   
+   $: params, load(params.$1, dynImport); 
+</script>
+
+{#if cmp}
+   <component:cmp {params}/>
+{:else}
+   <Error/>
+{/if}

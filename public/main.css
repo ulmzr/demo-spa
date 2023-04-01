@@ -1,0 +1,127 @@
+/* malinacss:C:/Users/yulmizar/Documents/GIT/workspace/demo/demo-spa/src/pages/Home.malina.css */
+article.mr0ug6q {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+nav.mr0ug6q a.mr0ug6q {
+  padding: .75em 1.5em;
+  height: auto;
+}
+
+/* malinacss:C:/Users/yulmizar/Documents/GIT/workspace/demo/demo-spa/src/module/Error.malina.css */
+hgroup.m1yqw79 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3em 0;
+}
+h6.m1yqw79 {
+  text-transform: uppercase;
+  color: #bbb;
+  margin-bottom: 1em;
+  letter-spacing: 5px;
+}
+p.m1yqw79 {
+  line-height: 1.25;
+  font-size: .75em;
+}
+
+/* malinacss:C:/Users/yulmizar/Documents/GIT/workspace/demo/demo-spa/src/App.malina.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  font-family: system-ui;
+  line-height: 1.5;
+}
+hr {
+  border: none;
+  height: 0.0625em;
+  background: #ccc;
+  margin: 1em 0 1.5em;
+}
+p {
+  margin: 1em 0;
+}
+article {
+  padding: 1.5em;
+  max-width: 100%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 3em;
+  column-gap: 4em;
+  row-gap: 1em;
+  width: 100%;
+  min-height: 15em;
+  background: linear-gradient(90deg, rgba(93, 156, 236, 1) 0%, rgba(74, 137, 220, 1) 100%);
+}
+nav h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 2em;
+}
+nav h3 {
+  color: white;
+  font-weight: 400;
+}
+@media (min-width:768px) {
+  nav {
+    flex-direction: row;
+  }
+  article {
+    max-width: 800px;
+  }
+}
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 0.3125em 0.875em;
+  border-radius: 0.5em;
+  height: 2.25em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 0 #656d78;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  --color: #aab2bd;
+  --colorse: #aab2bdcc;
+  --hover: #96a0ad55;
+  --focus: #aab2bd99;
+  --border: #96a0ad;
+  background: var(--color);
+  border: 1px solid var(--border);
+}
+.button:hover {
+  z-index: 3;
+  box-shadow: 0 0 0 3px var(--hover);
+}
+.button:focus {
+  z-index: 2;
+  box-shadow: 0 0 0 3px var(--focus);
+}
+.button:active {
+  z-index: 3;
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+.button.warning {
+  --color: #f6bb42;
+  --colorse: #f6bb42cc;
+  --hover: #efa50b55;
+  --focus: #efa50b77;
+  --border: #efa50b;
+}
