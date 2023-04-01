@@ -1,16 +1,21 @@
 /* malinacss:C:/Users/yulmizar/Documents/GIT/workspace/demo/demo-spa/src/pages/Home.malina.css */
-article.mr0ug6q {
+article.mbganwa {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
+  column-gap: 1em;
+  row-gap: 2em;
 }
-nav.mr0ug6q a.mr0ug6q {
+nav.mbganwa a.mbganwa {
   padding: .75em 1.5em;
   height: auto;
 }
+@media (min-width:768px) {
+  article.mbganwa {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* malinacss:C:/Users/yulmizar/Documents/GIT/workspace/demo/demo-spa/src/module/Error.malina.css */
-hgroup.m1yqw79 {
+hgroup.m8gedwf {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,13 +23,13 @@ hgroup.m1yqw79 {
   text-align: center;
   padding: 3em 0;
 }
-h6.m1yqw79 {
+h6.m8gedwf {
   text-transform: uppercase;
   color: #bbb;
   margin-bottom: 1em;
   letter-spacing: 5px;
 }
-p.m1yqw79 {
+p.m8gedwf {
   line-height: 1.25;
   font-size: .75em;
 }
@@ -60,7 +65,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em 3em;
+  padding: 2em 3em;
   column-gap: 4em;
   row-gap: 1em;
   width: 100%;
@@ -72,6 +77,10 @@ nav h1 {
   font-size: 3em;
   font-weight: 400;
   line-height: 2em;
+  width: auto;
+}
+nav div {
+  flex: 1;
 }
 nav h3 {
   color: white;
@@ -80,6 +89,9 @@ nav h3 {
 @media (min-width:768px) {
   nav {
     flex-direction: row;
+  }
+  nav h1 {
+    width: 7em;
   }
   article {
     max-width: 800px;

@@ -504,7 +504,7 @@
         console.log(params);
         {
           let $cd = $component.$cd;
-          const $parentElement = $$htmlToFragmentClean(`<nav class="mr0ug6q"> <h1>MalinaJS</h1> <div><h3>Our focus is to build production and distribution systems that are environmentally friendly, build the capabilities of workers and communities, present digital solutions to be closer to consumers, and ensure a positive impact for the future.</h3> <br/> <a href="/learn" class="mr0ug6q button warning">Learn More</a></div> </nav> <article class="mr0ug6q"> <section> <h3>Profile</h3> <p>Sed nesciunt facere aspernatur culpa officia maxime voluptatum numquam accusantium adipisci, nemo tenetur, eum quibusdam odio similique quidem repellat eaque beatae veniam?</p> <a href="/user/profile" class="button">More</a> </section> <section> <h3>Setting</h3> <p>Dolorem iure aperiam repellat ipsum tenetur odio eum laboriosam autem eveniet aut necessitatibus aspernatur deleniti, fugit consequatur? Itaque incidunt quis quisquam quibusdam?</p> <a href="/user/setting" class="button">More</a> </section> <section> <h3>About</h3> <p>Accusamus ex molestias ullam cum fugiat fuga autem, iste ut necessitatibus. Accusamus rerum ipsam porro ipsa quidem, totam nobis nostrum unde suscipit.</p> <a href="/about/us" class="button">More</a> </section> </article>`);
+          const $parentElement = $$htmlToFragmentClean(`<nav class="mbganwa"> <h1>MalinaJS</h1> <div><h3>Our focus is to build production and distribution systems that are environmentally friendly, build the capabilities of workers and communities, present digital solutions to be closer to consumers, and ensure a positive impact for the future.</h3> <br/> <a href="/learn" class="mbganwa button warning">Learn More</a></div> </nav> <article class="mbganwa"> <section> <h3>Profile</h3> <p>Sed nesciunt facere aspernatur culpa officia maxime voluptatum numquam accusantium adipisci, nemo tenetur, eum quibusdam odio similique quidem repellat eaque beatae veniam?</p> <a href="/user/profile" class="button">More</a> </section> <section> <h3>Setting</h3> <p>Dolorem iure aperiam repellat ipsum tenetur odio eum laboriosam autem eveniet aut necessitatibus aspernatur deleniti, fugit consequatur? Itaque incidunt quis quisquam quibusdam?</p> <a href="/user/setting" class="button">More</a> </section> <section> <h3>About</h3> <p>Accusamus ex molestias ullam cum fugiat fuga autem, iste ut necessitatibus. Accusamus rerum ipsam porro ipsa quidem, totam nobis nostrum unde suscipit.</p> <a href="/about/us" class="button">More</a> </section> </article>`);
           return $parentElement;
         }
       }, $base);
@@ -557,7 +557,7 @@
         current_component.exportedProps = () => ({ num, nfo, msg });
         {
           let $cd = $component.$cd;
-          const $parentElement = $$htmlToFragmentClean(`<hgroup class="m1yqw79"> <h1> </h1> <h6 class="m1yqw79"> </h6> <p class="m1yqw79"><></p> </hgroup>`);
+          const $parentElement = $$htmlToFragmentClean(`<hgroup class="m8gedwf"> <h1> </h1> <h6 class="m8gedwf"> </h6> <p class="m8gedwf"><></p> </hgroup>`);
           let el0 = $parentElement[firstChild][childNodes][1][firstChild];
           let el1 = $parentElement[firstChild][childNodes][3][firstChild];
           let el2 = $parentElement[firstChild][childNodes][5][firstChild];

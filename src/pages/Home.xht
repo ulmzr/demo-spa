@@ -33,12 +33,18 @@
 <style>
    article {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1em;
+      column-gap: 1em;
+      row-gap: 2em;
    }
    
    nav a {
       padding: .75em 1.5em;
       height: auto;
+   }
+
+   @media (min-width: 768px) {
+      article {
+         grid-template-columns: repeat(3, 1fr);
+      }
    }
 </style>
